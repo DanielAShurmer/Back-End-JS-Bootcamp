@@ -21,7 +21,7 @@ module.exports =
                         departmentName = "RandD"
                     }
 
-                    Response.write("<a href='./department?Dept=" + departmentName + "'>" + departmentName + "</a><br>");
+                    Response.write("<a href='./department?Dep=" + departmentName + "'>" + record.Name + "</a><br>");
                 });
                 Response.end();
             }
